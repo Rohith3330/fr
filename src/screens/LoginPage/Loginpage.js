@@ -13,7 +13,7 @@ const Loginpage = () => {
     const [id,setid]=useState("");
     const [message, setMessage] = useState(null);
     const [password,setPassword]=useState("");
-    const [error,setError]=useState(false);
+    // const [error,setError]=useState(false);
     const [loading,setLoading]=useState(false);
     const[homepage,setHome]=useState(false);
     useEffect(()=>{
@@ -24,7 +24,7 @@ const Loginpage = () => {
 
         try{
             const config={
-              baseURL: "//localhost:5000",
+              baseURL: "https://po-nine.vercel.app/",
               origin: true,
               withCredentials: false,
               headers:{
@@ -50,7 +50,7 @@ const Loginpage = () => {
             setid(data._id);
         }
         catch(error){
-            setError(error.response);
+            // setError(error.response);
             setLoading(false);
             setMessage(error.response.data.message)
             console.log(error.response.data);

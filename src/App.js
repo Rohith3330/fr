@@ -3,7 +3,7 @@ import React from 'react'
 import './App.css';
 import './bootstrap.min.css'
 import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
+// import Footer from './components/footer/Footer';
 import Landingpage from './screens/landingpage/Landingpage';
 import Loginpage from './screens/LoginPage/Loginpage';
 import Registerpage from './screens/Registerpage/Registerpage';

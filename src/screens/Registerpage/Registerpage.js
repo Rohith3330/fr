@@ -14,9 +14,9 @@ const Registerpage = () => {
   const [roll, setRoll] = useState("");
   const [branch, setBranch] = useState("");
   const[homepage,setHome]=useState(false);
-  const [pic, setPic] = useState(
-    "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg"
-  );
+  // const [pic, setPic] = useState(
+  //   "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg"
+  // );
   const [password, setPassword] = useState("");
   const [confirmpassword, setConfirmPassword] = useState("");
   const [message, setMessage] = useState(null);
@@ -31,7 +31,7 @@ const Registerpage = () => {
       setMessage(null);
       try{
         const config={
-          baseURL: "//localhost:5000",
+          baseURL: "https://po-nine.vercel.app/",
           origin: true,
           withCredentials: false,
           headers:{
