@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "./home.css";
-import "../../../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css"
-import "../../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+// import "../../../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css"
+// import "../../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 import {Link } from 'react-router-dom'
 import axios from 'axios';
 // import { Link } from 'react-router-dom';
