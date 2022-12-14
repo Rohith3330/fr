@@ -14,9 +14,10 @@ const Registerpage = () => {
   const [roll, setRoll] = useState("");
   const [branch, setBranch] = useState("");
   const[homepage,setHome]=useState(false);
-  // const [pic, setPic] = useState(
-  //   "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg"
-  // );
+  // eslint-disable-next-line
+  const [pic, setPic] = useState(
+    "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg"
+  );
   const [password, setPassword] = useState("");
   const [confirmpassword, setConfirmPassword] = useState("");
   const [message, setMessage] = useState(null);
