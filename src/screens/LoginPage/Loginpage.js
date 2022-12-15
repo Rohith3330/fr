@@ -24,11 +24,11 @@ const Loginpage = () => {
 
         try{
             const config={
-              baseURL: "https://po-nine.vercel.app/",
+              baseURL: "https://pokkkkk.vercel.app",
               origin: true,
-              withCredentials: false,
               headers:{
-                "Content-type":"application/json"
+                "Content-type":"application/json",
+                'Access-Control-Allow-Origin': "*"
               }
             }
             setLoading(true);

@@ -17,11 +17,12 @@ const Details = (_) => {
     if(!getuserdata.data){
       try{
         const config={
-          baseURL: "//localhost:5000",
+          baseURL: "https://pokkkkk.vercel.app",
           origin: true,
           withCredentials: false,
           headers:{
-            "Content-type":"application/json"
+            "Content-type":"application/json",
+            'Access-Control-Allow-Origin': "*"
           }
       }
       console.log("here1");
