@@ -14,11 +14,11 @@ const Home = () => {
   const getdata = async(e)=>{
     try{
       const config={
-        baseURL: "//localhost:5000",
+        baseURL: "https://pokkkkk.vercel.app",
         origin: true,
-        withCredentials: false,
         headers:{
-          "Content-type":"application/json"
+          "Content-type":"application/json",
+          'Access-Control-Allow-Origin': "*"
         }
     }
     console.log("here");

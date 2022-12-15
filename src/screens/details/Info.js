@@ -19,7 +19,6 @@ const Details = (_) => {
         const config={
           baseURL: "https://pokkkkk.vercel.app",
           origin: true,
-          withCredentials: false,
           headers:{
             "Content-type":"application/json",
             'Access-Control-Allow-Origin': "*"
