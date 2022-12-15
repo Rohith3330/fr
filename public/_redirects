@@ -1,1 +1,1 @@
-./login ./screens/LoginPage/Loginpage 200
+./login ./screens/LoginPage/Loginpage.js 200
